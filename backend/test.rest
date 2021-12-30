@@ -1,0 +1,17 @@
+GET http://localhost:5000/posts/1
+
+###
+GET http://localhost:5000/posts/getAllBids/1
+
+###
+GET http://localhost:5000/posts/getLead/1
+
+###
+GET http://localhost:5000/posts/getGrossValue/1
+
+###
+POST http://localhost:5000/posts/placeBid/1
+
+{
+  "userId": 4
+}
